@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+
+# Uploaded datasets
+uploads/*
+!uploads/.gitkeep
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
